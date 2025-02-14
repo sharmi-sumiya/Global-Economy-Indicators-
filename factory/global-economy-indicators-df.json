@@ -1,0 +1,9 @@
+{
+	"name": "global-economy-indicators-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2ccdc2c0-aa4b-4d02-aca7-d3e57f694780",
+		"tenantId": "c3dd305d-d804-4f81-9077-0265115a1dd7"
+	}
+}
