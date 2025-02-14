@@ -1,0 +1,25 @@
+{
+	"name": "GlobaleconomyDB",
+	"properties": {
+		"Name": "GlobaleconomyDB",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://global-economy-indicators-data@globaleconomyindicators.dfs.core.windows.net/GlobaleconomyDB",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "global-economy-indicator-sa-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "757ab9d7-9280-4871-a505-d7ebc05172eb"
+	},
+	"type": "DATABASE"
+}

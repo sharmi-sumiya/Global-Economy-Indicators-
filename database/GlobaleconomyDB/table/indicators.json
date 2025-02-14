@@ -1,0 +1,470 @@
+{
+	"name": "indicators",
+	"properties": {
+		"Name": "indicators",
+		"EntityType": "TABLE",
+		"TableType": "EXTERNAL",
+		"Namespace": {
+			"SchemaName": null,
+			"DatabaseName": "GlobaleconomyDB",
+			"DatabaseId": null
+		},
+		"Partitioning": {
+			"PartitionFunctionType": null,
+			"Keys": null
+		},
+		"StorageDescriptor": {
+			"Distribution": null,
+			"Columns": [
+				{
+					"Name": "CountryID",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "long",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "long"
+						}
+					}
+				},
+				{
+					"Name": "Country",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "string",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 8000,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "string"
+						}
+					}
+				},
+				{
+					"Name": "Year",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "long",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "long"
+						}
+					}
+				},
+				{
+					"Name": "AMA_exchange_rate",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "IMF_based_exchange_rate",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Population",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "long",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "long"
+						}
+					}
+				},
+				{
+					"Name": "Currency",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "string",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 8000,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "string"
+						}
+					}
+				},
+				{
+					"Name": "Per_capita_GNI",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "long",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "long"
+						}
+					}
+				},
+				{
+					"Name": "Agriculture_hunting_forestry_fishing_ISIC_AB",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Changes_in_inventories",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Construction_ISIC_F",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Exports_of_goods_and_services",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Final_consumption_expenditure",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "General_government_final_consumption_expenditure",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Gross_capital_formation",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Gross_fixed_capital_formation_including_Acquisitions_less_disposals_of_valuables",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Household_consumption_expenditure_including_Non_profit_institutions_serving_households",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Imports_of_goods_and_services",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Manufacturing_ISIC_D",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Mining_Manufacturing_Utilities_ISIC_C_E",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Other_Activities_ISIC_J_P",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Total_Value_Added",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Transport_storage_and_communication_ISIC_I",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Wholesale_retail_trade_restaurants_and_hotels_ISIC_G_H",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Gross_National_Income_GNI_in_USD",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				},
+				{
+					"Name": "Gross_Domestic_Product_GDP",
+					"Description": null,
+					"OriginDataTypeName": {
+						"TypeName": "double",
+						"IsComplexType": false,
+						"IsNullable": true,
+						"Length": 0,
+						"Precision": 0,
+						"Scale": 0,
+						"Properties": {
+							"HIVE_TYPE_STRING": "double"
+						}
+					}
+				}
+			],
+			"ColumnSetEntityName": "5c4dcac1-c1aa-4eac-a507-336572b2fac8",
+			"Format": {
+				"InputFormat": "org.apache.hadoop.mapred.SequenceFileInputFormat",
+				"OutputFormat": "org.apache.hadoop.hive.ql.io.HiveSequenceFileOutputFormat",
+				"FormatType": "csv",
+				"SerializeLib": "org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe",
+				"Properties": {
+					"path": "abfss://global-economy-indicators-data@globaleconomyindicators.dfs.core.windows.net/transformed-data/indicators/part-00000-tid-8109756532729835153-e7d859b9-b48c-4a03-97c5-1c9192507ce4-6-1-c000.csv",
+					"delimiter": ",",
+					"firstRowAsHeader": "true",
+					"multiLine": "false",
+					"serialization.format": "1",
+					"FormatTypeSetToDatabaseDefault": false,
+					"header": "true"
+				}
+			},
+			"Source": {
+				"Provider": "ADLS",
+				"Location": "abfss://global-economy-indicators-data@globaleconomyindicators.dfs.core.windows.net/transformed-data/indicators/part-00000-tid-8109756532729835153-e7d859b9-b48c-4a03-97c5-1c9192507ce4-6-1-c000.csv",
+				"Properties": {
+					"LinkedServiceName": "global-economy-indicator-sa-WorkspaceDefaultStorage",
+					"LocationSetToDatabaseDefault": false
+				}
+			},
+			"Properties": {
+				"textinputformat.record.delimiter": ",",
+				"compression": "",
+				"derivedModelAttributeInfo": "{\"attributeReferences\":{}}"
+			},
+			"Compressed": false,
+			"SerDeInfo": null,
+			"IsStoredAsSubdirectories": false
+		},
+		"Owner": null,
+		"CreateTime": 0,
+		"LastAccessTime": 0,
+		"Retention": 0,
+		"Temporary": false,
+		"IsRewriteEnabled": false,
+		"ViewOriginalText": null,
+		"ViewExpandedText": null,
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"OriginObjectId": null,
+		"IsSharedEntity": false,
+		"PublishStatus": "PUBLISHED",
+		"Properties": {
+			"Description": "",
+			"DisplayFolderInfo": "{\"name\":\"Others\",\"colorCode\":\"\"}",
+			"PrimaryKeys": "",
+			"spark.sql.sources.provider": "csv",
+			"spark.sql.sources.schema.numParts": "1",
+			"spark.sql.sources.schema.part.0": "{\"type\":\"struct\",\"fields\":[{\"name\":\"CountryID\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Country\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Year\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"AMA_exchange_rate\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"IMF_based_exchange_rate\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Population\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Currency\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Per_capita_GNI\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Agriculture_hunting_forestry_fishing_ISIC_AB\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Changes_in_inventories\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Construction_ISIC_F\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Exports_of_goods_and_services\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Final_consumption_expenditure\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"General_government_final_consumption_expenditure\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Gross_capital_formation\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Gross_fixed_capital_formation_including_Acquisitions_less_disposals_of_valuables\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Household_consumption_expenditure_including_Non_profit_institutions_serving_households\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Imports_of_goods_and_services\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Manufacturing_ISIC_D\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Mining_Manufacturing_Utilities_ISIC_C_E\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Other_Activities_ISIC_J_P\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Total_Value_Added\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Transport_storage_and_communication_ISIC_I\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Wholesale_retail_trade_restaurants_and_hotels_ISIC_G_H\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Gross_National_Income_GNI_in_USD\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Gross_Domestic_Product_GDP\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}}]}"
+		},
+		"ObjectVersion": 1,
+		"ObjectId": "581df9c6-4483-4717-a3f7-008a0793273d",
+		"Description": ""
+	},
+	"type": "TABLE"
+}
