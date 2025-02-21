@@ -2,36 +2,37 @@
 
 ![image](https://github.com/user-attachments/assets/c75cd0aa-6948-4247-8d0d-68b623b14a64)
 
-Global economic indictors 
-Dataset Overview
+# *Global economic indictors 
+*Dataset Overview*
 
 The aim of this project is to perform a thorough economic analysis and forecasting for global and individual countries using a dataset that includes various economic indicators and variables. The project will investigate the relationships and trends among these variables to derive insights into each country's economic performance and future prospects. 
 
 
 
-Using Tools:
+**Using Tools:**
+
 -Sql
+
 -Python
+
 -Power BI    
 
 
-Built-in
+## Built-in-with
 
-Azure
+*Azure
 
-Power BI
+*Power BI
 
-Built With
+*Azure Synapse-Analytics
 
-Azure Synapse-Analytics
+*Python
 
-Python
+*Power BI
 
-Power BI
+*Synapse Analytics SQL
 
-Synapse Analytics SQL
-
-Excel
+*Excel
 
 Exploratory Analysis and Visualization
 
