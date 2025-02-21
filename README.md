@@ -41,7 +41,7 @@ The aim of this project is to perform a thorough economic analysis and forecasti
 
 
 ## Key Features 
-*Exploratory Analysis and Visualization 
+*Exploratory Analysis and Visualization* 
 
 Understanding the global economy requires careful analysis of various key indicators. These indicators provide insights into the economic health of nations and help shape policy decisions, investment strategies, and economic forecasts.
 
@@ -53,7 +53,7 @@ Understanding the global economy requires careful analysis of various key indica
 
 
 ## SQL Analysis using Azure Synapse Analytics
-*Data Processing & Analysis:   
+*Data Processing & Analysis:*  
 
 
 Trade balances, which compare the value of a country's exports to its imports, reveal the economic interactions between nations and the relative strength of a country's economy in the global market.
