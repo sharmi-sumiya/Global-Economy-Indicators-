@@ -40,6 +40,25 @@ The aim of this project is to perform a thorough economic analysis and forecasti
 ![Screenshot 2025-02-13 223053](https://github.com/user-attachments/assets/393691a7-ab2f-4110-aa26-a0dc8068ad7a)
 
 
+# PySpark_Python Script using Azure Synapse Studio # 
+
+https://adb-2884280241447702.2.azuredatabricks.net/editor/notebooks/3051892057890400?o=2884280241447702#command/6645419564401272 
+
+
+![Screenshot 2025-02-12 033111](https://github.com/user-attachments/assets/7e1b8b7c-7a38-4627-b7e5-0028ac5a4143)
+
+
+![Screenshot 2025-02-12 033051](https://github.com/user-attachments/assets/2366a2b3-39c8-4026-8c06-cb45db3fae68)
+
+![Screenshot 2025-02-12 032820](https://github.com/user-attachments/assets/c375faf3-9a53-41b7-b6a5-fac262f17419)
+
+![Screenshot 2025-02-12 032735](https://github.com/user-attachments/assets/ee171818-61b8-4bd8-9586-85fc26765694)
+
+
+![Screenshot 2025-02-12 032701](https://github.com/user-attachments/assets/6baaae24-c797-4f6f-bad0-9fd4f1d6ac94)
+
+
+
 ## Key Features 
 *Exploratory Analysis and Visualization* 
 
@@ -61,7 +80,8 @@ Trade balances, which compare the value of a country's exports to its imports, r
 Monitoring these indicators, along with others such as:
 
 * consumer confidence indices
-* interest rates  * stock market performance
+* interest rates
+* stock market performance
 * allows economists
 * policy makers investors to make informed decisions
      
