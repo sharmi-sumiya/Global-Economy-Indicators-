@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/c75cd0aa-6948-4247-8d0d-68b623b14a64)
 
- *Global economic indictors* 
+ *Global Economic Indictors* 
 *Dataset Overview*
 
 The aim of this project is to perform a thorough economic analysis and forecasting for global and individual countries using a dataset that includes various economic indicators and variables. The project will investigate the relationships and trends among these variables to derive insights into each country's economic performance and future prospects. 
